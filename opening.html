@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Welcome to</title>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan&family=Rammetto+One&display=swap");
+body {
+  font-family: "Rammetto One", cursive;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #ffffff;
+}
+button {
+  border: none;
+  background-color: #9370db;
+  border-radius: 2px;
+  height: 2em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* video styles */
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+/* In case you want to disable the video 
+@media screen and (max-width: 400px) {
+  html {
+    background: url("https://images.unsplash.com/photo-1620222071550-a5c7f8b600ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMDY4NDIyNA&ixlib=rb-1.2.1&q=80&w=400");
+    background-size: cover;
+  }
+  .video-container {
+    display: none;
+  }
+}*/
+button:hover{
+     cursor: pointer;
+   }
+</style>
+
+</head>
+<body>
+    <div class="Enter">
+        <video playsinline autoplay muted loop poster="images/Sailormoon.gif"></video>
+
+        <!--INSERT OPENING MUTED VIDEO-->
+        <source type="video/mp4" src="images/Sailormoon.gif">
+          <source src="images/Sailormoon.gif"></video>
+      </div>
+      <div class="header">
+        <h1>THE WORLD OF CLAUDE ROXAS</h1>
+        <form action="index.html">
+            <button type="submit" onclick="alert('PREPARE TO HIRE ME')" >Enter</button>
+         </form>
+    </div>
+    
+</body>
+</html>
